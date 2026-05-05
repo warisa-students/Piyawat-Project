@@ -9,7 +9,7 @@
     - pressure
 - Predict future rainfall at a monthly level to capture seasonal patterns and climate variability.
 Apply Machine Learning and Deep Learning models to learn complex relationships in the data.
-    - RF, 
+    - RF
     - SVM
     - XGBoost
     - LSTM
