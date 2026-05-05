@@ -1,20 +1,91 @@
 # Topic
-    
-- Develop a data-driven framework to forecast rainfall and optimize crop planning in non-irrigated agricultural areas.
-- Use historical weather data : 
-    - rainfall 
-    - temperature
-    - humidity
-    - wind speed
-    - pressure
-- Predict future rainfall at a monthly level to capture seasonal patterns and climate variability.
-Apply Machine Learning and Deep Learning models to learn complex relationships in the data.
-    - RF
-    - SVM
-    - XGBoost
-    - LSTM
-    - TimeXer 
-- Use the predicted rainfall as key input for a Mixed-Integer Linear Programming (MILP) model.
-- Develop the optimization model to determine the best planting schedule and land allocation under limited water conditions.
-- Focus initially on a drought-prone study area to ensure reliable data and manageable model complexity.
-- Design the framework to be scalable, allowing future integration of additional data (e.g., soil moisture, satellite data) and expansion to other regions.
+
+## Overview
+This project develops a data-driven framework to forecast rainfall and optimize crop planning in non-irrigated agricultural areas.  
+The system integrates Machine Learning models with an optimization model to support decision-making under water constraints.
+
+---
+
+## Objectives
+- Forecast monthly rainfall using historical weather data  
+- Improve planning accuracy under uncertain climate conditions  
+- Optimize planting schedules and land allocation  
+- Maximize agricultural returns while minimizing drought risk  
+
+---
+
+## Data
+Input features include:
+- Rainfall  
+- Temperature  
+- Humidity  
+- Wind Speed  
+- Atmospheric Pressure  
+
+Target:
+- Monthly rainfall prediction  
+
+---
+
+## Machine Learning Models
+The following models are used:
+- Random Forest (RF)  
+- Support Vector Machine (SVM)  
+- XGBoost  
+- Long Short-Term Memory (LSTM)  
+- TimeXer (Transformer-based model)  
+
+---
+
+## Optimization Model
+- Mixed-Integer Linear Programming (MILP)  
+- Uses predicted rainfall as input  
+- Determines:
+  - Optimal planting schedule  
+  - Land allocation strategy  
+
+---
+
+## Study Area
+- Focus on drought-prone, non-irrigated agricultural areas  
+- Initial case study: (e.g., Tak Province, Thailand)  
+
+---
+
+## Workflow
+1. Collect historical weather data  
+2. Preprocess and engineer features  
+3. Train ML/DL models for rainfall prediction  
+4. Evaluate model performance  
+5. Feed predictions into MILP model  
+6. Generate optimal crop planning strategy  
+
+---
+
+## Expected Outcomes
+- Accurate rainfall forecasts  
+- Improved crop planning decisions  
+- Reduced risk from drought  
+- Increased economic returns for farmers  
+
+---
+
+## Future Work
+- Integrate soil moisture and satellite data  
+- Expand to multiple regions  
+- Develop real-time decision support system  
+
+---
+
+## Tools & Technologies
+- Python  
+- Scikit-learn  
+- XGBoost  
+- TensorFlow / PyTorch  
+- Optimization (e.g., PuLP / Gurobi / CPLEX)  
+
+---
+
+## Author
+Piyawat Sasomsin  
+Faculty of Engineering, Chiang Mai University  
