@@ -20,7 +20,7 @@ Input features include:
 - Temperature  
 - Humidity  
 - Wind Speed  
-- Atmospheric Pressure  
+- Pressure  
 
 Target:
 - Monthly rainfall prediction  
